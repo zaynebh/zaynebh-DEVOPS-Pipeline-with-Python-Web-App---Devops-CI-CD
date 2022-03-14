@@ -2,4 +2,8 @@ Flask
 SQLAlchemy
 Flask-SQLAlchemy
 pytest
+<<<<<<< HEAD
 flask_migrate
+=======
+flask_migrate
+>>>>>>> d7356fb... next commit
