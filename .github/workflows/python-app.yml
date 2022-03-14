@@ -30,7 +30,7 @@ jobs:
         pytest test.py
     - name: Check docker installed or not
       run: docker run hello-world
-    - name: Push to docker Hub
+    - name: build-push
       uses: docker/build-push-actions@v2.4.0
       with:
         username: ${{ secrets.DOCKER_USERNAME}}
